@@ -10,6 +10,12 @@
     <p>{{propellers}}</p>
     <p>{{maxSpeed}}</p>
 
+    <form action="/drones/{{_id}}/delete" method="post">
+      <button>Delete Drone</button>
+    </form>
+
   {{/each}}
+
+
 
 </div>
